@@ -1,0 +1,102 @@
+/* Estilos para la tarjeta (card) */
+
+.card-subtitle {
+    width: 100%;
+    text-align: end;
+    background-color: #212529;
+    padding: 8px;
+}
+
+.card {
+
+    max-height: 350px; 
+    max-width: 450px; /* Establece el ancho máximo para cada tarjeta */
+    text-align: center;
+    font-size: 12px;
+    background: #202123;
+    /*color: #02b075;*/
+
+    padding: 20px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+.card h5 {
+    color: aliceblue;
+    font-size: large;
+}
+
+.card h5 span {
+    color :aliceblue;
+    font-size: large;
+}
+
+.card h4 {
+    color: aquamarine;
+    font-size: large; 
+}
+.card h4 span{
+    color: aquamarine;
+    font-size: medium;
+    display: block; 
+
+}
+
+.card h3{
+    color: chocolate;
+    font-size: large;
+}
+
+.card h3 span {
+    color: chocolate;
+    font-size: medium;
+    display: block; 
+
+}
+.card div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+a.btn{
+    color: white;
+    font-weight: bold;
+    
+    
+  }
+  
+a.btn:hover{
+    border-color: #02b075;
+    font-weight: bold; 
+    transition: 3ms;  
+  }
+.botones-form {
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.botones-form:hover{
+    
+    color: #02b075;
+    background-color: #02b075;
+
+
+
+}
+
+
+ 

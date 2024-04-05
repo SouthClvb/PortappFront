@@ -1,0 +1,32 @@
+/* HEADER GENERICO*/
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgba(20, 28, 34, 0.9);
+
+  }
+ 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    color: aquamarine;
+  }
+ul{
+    list-style-type:none;
+  }
+  
+h6{
+    display: block;
+    /*position: absolute; /* O absolute dependiendo del diseño deseado */
+    right: 272px;
+    width: 1275px;
+    font-size: 20px;
+  }
+  
